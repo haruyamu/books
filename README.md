@@ -66,3 +66,14 @@ has_many :likes
 
 -belongs_to :user
 -belongs_to :post
+
+## relationship
+
+| column | type       | options                                    |
+| ------ | ---------- | ------------------------------------------ |
+| user   | references | null: false,unique: true,foreign_key; true |
+
+### Association
+
+-belongs_to :user
+-belongs_to :post

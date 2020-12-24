@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Books</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+<head>
+  <title>Books</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
 
-  <body>
-    <%= yield %>
-  </body>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<body>
+  <header>
+    <div class="header-left">
+      <h1>Books</h1>
+    </div>
+    <div class="header-right">
+      <ul>
+        <li><a html="#">投稿</a></li>
+        <li><a html="#">profile</a></li>
+      </ul>
+    </div>
+
+  </header>
+  <%= yield %>
+  <footer>
+    <ul>
+      <li>タイムライン</li>
+      <li>検索</li>
+      <li>books</li>
+    </ul>
+  </footer>
+</body>
+
 </html>
