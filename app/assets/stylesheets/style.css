@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  height: 70px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  padding: 20px 0;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.letter {
+  font-size: 70px;
+  width: 400px;
+  font-family: "Caveat", cursive;
+  text-align: center;
+}
+.right-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+.btn {
+  height: 30px;
+  background-color: aqua;
+  display: inline-block;
+  padding: 0.4em 1.6em;
+  margin: 0.4em 1.6em;
+  font-size: 0.8em;
+  color: black;
+  border: 1px aqua solid;
+  text-decoration: none;
+  user-select: none;
+  border-radius: 3px;
+  transition: 0.4s ease;
+  /* align-items: center; */
+  margin-top: 30px;
+}
+.search-btn {
+  display: inline-block;
+  padding: 0.4em 1.6em;
+  height: 40px;
+  font-size: 0.8em;
+  color: black;
+  border: 1px;
+  text-decoration: none;
+  user-select: none;
+  border-radius: 3px;
+  transition: 0.4s ease;
+  margin-top: 30px;
+}
+.search-input {
+  height: 35px;
+  margin-top: 20px;
+}
