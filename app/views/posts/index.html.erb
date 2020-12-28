@@ -1,0 +1,8 @@
+<div class="top">
+  <div class="user-name">
+    <%= link_to "user name", "#", class: "link" %>
+  </div>
+  <div class="posts">
+    <%= render partial:"post", collection: @posts %>
+  </div>
+</div>

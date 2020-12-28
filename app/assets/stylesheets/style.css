@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 header {
   height: 70px;
@@ -39,6 +41,9 @@ header {
   /* align-items: center; */
   margin-top: 30px;
 }
+.btn:hover {
+  box-shadow: 0 3px 6px 0 black;
+}
 .search-btn {
   display: inline-block;
   padding: 0.4em 1.6em;
@@ -55,4 +60,79 @@ header {
 .search-input {
   height: 35px;
   margin-top: 20px;
+}
+.back_btn {
+  height: 30px;
+  background-color: gray;
+  display: inline-block;
+  padding: 0.4em 1.6em;
+  margin: 0.4em 1.6em;
+  font-size: 0.8em;
+  color: whitesmoke;
+  border: 1px gray solid;
+  text-decoration: none;
+  user-select: none;
+  border-radius: 3px;
+  transition: 0.4s ease;
+  /* align-items: center; */
+  margin-top: 30px;
+}
+
+/* _form */
+
+.field {
+  margin: 10px;
+  text-align: left;
+}
+
+.page-heading {
+  font-size: 15px;
+  margin-bottom: 28px;
+}
+.form-wrapper {
+  text-align: center;
+}
+
+/* new */
+
+.form-title {
+  width: 50%;
+  font-size: 20px;
+}
+.form-place {
+  width: 50%;
+  font-size: 20px;
+}
+.form-text {
+  width: 100%;
+  font-size: 20px;
+}
+.form-btn {
+  height: 30px;
+  background-color: aqua;
+  display: inline-block;
+  padding: 0.4em 1.6em;
+  margin: 0.4em 1.6em;
+  font-size: 0.8em;
+  color: black;
+  border: 1px aqua solid;
+  text-decoration: none;
+  user-select: none;
+  border-radius: 3px;
+  transition: 0.4s ease;
+  margin-top: 30px;
+}
+.label {
+  text-align: left;
+}
+.detail {
+  text-align: left;
+}
+.top {
+  width: 70%;
+  text-align: center;
+}
+body {
+  width: 100%;
+  height: 100%;
 }

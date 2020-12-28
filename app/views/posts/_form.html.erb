@@ -1,0 +1,24 @@
+<%= form_with model: post, local: true do |f| %>
+<div class="field">
+  <%= f.label :title, 'タイトル',class: "label" %><br>
+  <%= f.text_area :title,class: "form-title" %>
+  <p class="detail">タイトルを記入してください</p>
+</div>
+<div class="field">
+  <%= f.label :place, '場所',class: "label" %><br>
+  <%= f.text_area :place,class: "form-place" %>
+  <p class="detail">場所を記入してください</p>
+</div>
+<div class="field">
+  <%= f.file_field :images, multiple: true %>
+</div>
+<div class="field">
+  <%= f.label :content, '内容',class: "label" %><br>
+  <%= f.text_area :content,class: "form-text",rows: 10 %>
+  <p class="detail">内容を記入してください</p>
+
+</div>
+<div class="action">
+  <%= f.submit "Submit", class: "form-btn" %>
+</div>
+<% end %>
